@@ -5,12 +5,12 @@ import Recipe from "./Recipe";
 
 const RecipePage = () => {
     return (
-        <div className="recipe">
+        <main className="recipe">
             <Recipe />
             <Ingredients />
             <Instructions />
             <Nutrition />
-        </div>
+        </main>
     )
 }
 
